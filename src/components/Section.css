@@ -1,0 +1,98 @@
+
+
+
+.Section-container {
+    background-color: #001529;
+    height: 100vh;
+    width: 100vw;
+}
+
+.text-container {
+    float: left;
+    position: relative;
+    top: 144px;
+    left: 91px;
+}
+
+.text {
+    word-spacing: 1rem;
+    letter-spacing: 0.2rem;
+    color: rgb(100, 255, 218);
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-size: 24px;
+    font-weight: bold;
+    /* margin-bottom: 391px; */
+}
+
+.text-2 {
+    color: white;
+    font-size: 80px;
+    line-height: 1.9;
+    margin-left: -14px;
+    font-weight: bold;
+}
+
+.text-3 {
+    color: rgb(168, 178, 209);
+    font-size: 80px;
+    line-height: 0.9;
+    margin-left: -14px;
+    font-weight: bold;
+
+}
+
+.paragraph {
+    color: rgb(168, 178, 209);
+    margin-left: -14px;
+    margin-top: 77px;
+    max-width: 500px;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.email {
+    margin-left: -14px;
+    color: rgb(100, 255, 218);
+    background-color: transparent;
+    border: 1px solid rgb(100, 255, 218);
+    border-radius: 3px;
+    padding: 1.25rem 1.75rem;
+    font-size: 14px;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    line-height: 1;
+    text-decoration: none;
+
+}
+
+.email:hover {
+    color: rgb(100, 255, 218);
+
+    box-shadow: 0 0 10px #00fff9, 0 0 20px #00fff9, 0 0 30px #00fff9;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    text-decoration: none;
+    cursor: pointer;
+}
+@media only screen and (max-width: 767px) {
+    .text-container {
+        text-align: left;
+        left: 40px;
+    }
+
+    .text {
+        font-size: 16px;
+        margin-left: 0px;
+    }
+
+    .text-2,
+    .text-3 {
+        font-size: 30px;
+        margin-left: -6px;
+    }
+
+    .paragraph {
+        margin-top: 53px;
+        margin-left: -6px;
+        line-height: 26px;
+        font-size: 15px;
+    }
+}
