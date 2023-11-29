@@ -1,0 +1,89 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: #001529;
+}
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+.navbar-brand {
+    font-family: 'Neonderthaw', cursive;
+
+    text-shadow: 0 0 10px #00fff9, 0 0 20px #00fff9, 0 0 30px #00fff9;
+    color: #ffffff;
+    font-weight: bold;
+    
+    font-size: 2rem;
+}
+
+.navbar-nav .nav-item .nav-link {
+    
+    color: rgb(168, 178, 209);
+    position: relative;
+    transition: 0.3s;
+    transform: translateX(0);
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    transform: translateX(10px);
+    color: rgb(100, 255, 218);
+    /* border-bottom: 4px solid rgb(100, 255, 218) */
+    /* Hover effect with a transform */
+}
+
+.navbar-nav .nav-item .nav-link::before {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    border-bottom: 4px solid rgb(100, 255, 218);
+    background-color: #ffffff;
+    transition: all 0.2s ease 0s;
+}
+
+.navbar-nav .nav-item .nav-link:hover::before {
+    width: 100%;
+}
+
+/* Center the logo on mobile devices */
+@media (max-width: 767px) {
+    .navbar-brand {
+        text-align: center;
+        width: 54%;
+    }
+
+    .navbar-toggler {
+        margin-left: auto;
+        /* Push the toggler icon to the right */
+    }
+
+    .navbar-collapse {
+        text-align: center;
+    }
+}
+
+    .cKJzHK{
+        margin-left: 9px;
+        background-color: transparent;
+        color:  rgb(100, 255, 218);
+        /* border: none; */
+        border-radius: 5px;
+        padding: 8px 20px;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        border:1px solid rgb(100, 255, 218);
+        text-decoration: none;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    }
+    .cKJzHK:hover{
+        text-decoration: none;
+        background-color: transparent;
+        color:  rgb(100, 255, 218);
+        border:1px solid rgb(100, 255, 218);
+        box-shadow: 0 0 10px #00fff9, 0 0 20px #00fff9, 0 0 30px #00fff9;
+    }
