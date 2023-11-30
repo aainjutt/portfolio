@@ -29,6 +29,7 @@ body {
 .navbar-nav .nav-item .nav-link:hover {
     transform: translateX(10px);
     color: rgb(100, 255, 218);
+    text-shadow: 0 0 10px #00fff9, 0 0 20px #00fff9, 0 0 30px #00fff9;;
     /* border-bottom: 4px solid rgb(100, 255, 218) */
     /* Hover effect with a transform */
 }

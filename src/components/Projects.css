@@ -1,0 +1,99 @@
+.projects-container{
+    padding: 50px;
+    position: relative;
+}
+
+
+
+.projects {
+    color: rgb(168, 178, 209);
+    position: relative;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vh 0 4vh;
+    white-space: nowrap;
+    letter-spacing: 0.5rem;
+    font-size: 4vw;
+}
+
+.projects:before,
+.projects:after {
+    content: "";
+    display: block;
+    height: 1vw;
+    width: 10vw;
+    border-radius: 1.2vw;
+    background-color: rgb(100, 255, 218);
+    position: relative;
+    top: 0;
+    margin: 0 2vw;
+}
+.card-container {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    cursor: pointer;
+    max-width: 100%;
+  }
+  .text-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 70%;
+    width: 75%;
+    position: absolute;
+    top: 14%;
+    left: 13%;
+    background-color: brown;
+    color: #fff;
+    opacity: 0;
+    transform: scale(0.8) rotate(0deg);
+    transition: opacity 0.3s ease-in-out, transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  .card-container:hover .text-div {
+    opacity: 1;
+    transform: scale(1) rotate(360deg);
+  }
+  .Card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    row-gap: 30px;
+  }
+  .img {
+    height: 260px;
+    width: 380px;
+    max-width: 100%;
+  }
+  .link {
+    color: #fff;
+    font-family: Poppins;
+    margin-right: 40px;
+    position: relative;
+    left: 5%;
+    cursor: pointer;
+    padding-bottom: 2px;
+  }
+  @media (max-width: 768px) {
+    .text {
+      font-size: 40px;
+      line-height: 40px;
+    }
+    .text-div {
+      font-size: 40px;
+    }
+    .link {
+      margin-right: 20px;
+    }
+    .Card {
+        height: 50%;
+        width: 90%;
+        margin-left: 10px;
+        margin-right: 10px;
+        /* justify-content: space-between; */
+      }
+  }
