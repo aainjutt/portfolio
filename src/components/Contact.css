@@ -1,0 +1,39 @@
+.contact-container{
+    padding: 50px;
+    position: relative;
+    margin: 150px 0px;
+}
+
+.contact {
+    color: rgb(168, 178, 209);
+    position: relative;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vh 0 4vh;
+    white-space: nowrap;
+    letter-spacing: 0.5rem;
+    font-size: 4vw;
+}
+
+.contact:before,
+.contact:after {
+    content: "";
+    display: block;
+    height: 1vw;
+    width: 10vw;
+    border-radius: 1.2vw;
+    background-color: rgb(100, 255, 218);
+    position: relative;
+    top: 0;
+    margin: 0 2vw;
+}
+.paragraph-contact{
+    color: rgb(168, 178, 209);
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+
+}
