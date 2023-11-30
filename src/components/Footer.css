@@ -1,7 +1,8 @@
-.Footer-container{
+.Footer-container {
     margin: 10px;
 }
-.icon-container{
+
+.icon-container {
     display: flex;
     -webkit-box-pack: justify;
     justify-content: space-around;
@@ -11,40 +12,46 @@
     text-align: left;
 
     font-size: 24px;
- 
+
 }
-.tiwitter:hover{
-   box-shadow:  0 0 10px #00fff9, 0 0 20px #00fff9, 0 0 30px #00fff9;
-   transition: all 0.5s ease 0s;
-   cursor: pointer;
-}
-.watsapp:hover{
-    box-shadow:  0 0 10px #00fff9, 0 0 20px #00fff9, 0 0 30px #00fff9;
-    transition: all 0.5s ease 0s;
-    cursor: pointer;
-}
-.linkedin:hover{
-    box-shadow:  0 0 10px #00fff9, 0 0 20px #00fff9, 0 0 30px #00fff9;
-    transition: all 0.5s ease 0s;
-    cursor: pointer;
-}
-.facebook:hover{
-    box-shadow:  0 0 10px #00fff9, 0 0 20px #00fff9, 0 0 30px #00fff9;
-    transition: all 0.5s ease 0s;
-    cursor: pointer;
-}
-.instagram:hover{
-    box-shadow:  0 0 10px #00fff9, 0 0 20px #00fff9, 0 0 30px #00fff9;
-    transition: all 0.5s ease 0s;
-    cursor: pointer;
-}
-.github:hover{
-    box-shadow:  0 0 10px #00fff9, 0 0 20px #00fff9, 0 0 30px #00fff9;
+
+.tiwitter:hover {
+    box-shadow: 0 0 10px #00fff9, 0 0 20px #00fff9, 0 0 30px #00fff9;
     transition: all 0.5s ease 0s;
     cursor: pointer;
 }
 
-.text-footer{
+.watsapp:hover {
+    box-shadow: 0 0 10px #00fff9, 0 0 20px #00fff9, 0 0 30px #00fff9;
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+}
+
+.linkedin:hover {
+    box-shadow: 0 0 10px #00fff9, 0 0 20px #00fff9, 0 0 30px #00fff9;
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+}
+
+.facebook:hover {
+    box-shadow: 0 0 10px #00fff9, 0 0 20px #00fff9, 0 0 30px #00fff9;
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+}
+
+.instagram:hover {
+    box-shadow: 0 0 10px #00fff9, 0 0 20px #00fff9, 0 0 30px #00fff9;
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+}
+
+.github:hover {
+    box-shadow: 0 0 10px #00fff9, 0 0 20px #00fff9, 0 0 30px #00fff9;
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+}
+
+.text-footer {
     font-size: 14px;
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
     color: white;

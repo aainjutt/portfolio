@@ -1,4 +1,4 @@
-.contact-container{
+.contact-container {
     padding: 50px;
     position: relative;
     margin: 150px 0px;
@@ -29,7 +29,8 @@
     top: 0;
     margin: 0 2vw;
 }
-.paragraph-contact{
+
+.paragraph-contact {
     color: rgb(168, 178, 209);
     max-width: 600px;
     margin: auto;

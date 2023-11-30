@@ -3,22 +3,30 @@ body {
 }
 
 .navbar {
+    z-index: 1;
     background-color: #001529;
+    position: fixed;
+    width: 100%;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+
 .navbar-brand {
     font-family: 'Neonderthaw', cursive;
 
     text-shadow: 0 0 10px #00fff9, 0 0 20px #00fff9, 0 0 30px #00fff9;
     color: #ffffff;
     font-weight: bold;
-    
+
     font-size: 2rem;
 }
 
+.navbar-nav {
+    column-gap: 10px;
+}
+
 .navbar-nav .nav-item .nav-link {
-    
+
     color: rgb(168, 178, 209);
     position: relative;
     transition: 0.3s;
@@ -27,9 +35,11 @@ body {
 }
 
 .navbar-nav .nav-item .nav-link:hover {
+    cursor: pointer;
     transform: translateX(10px);
     color: rgb(100, 255, 218);
-    text-shadow: 0 0 10px #00fff9, 0 0 20px #00fff9, 0 0 30px #00fff9;;
+    text-shadow: 0 0 10px #00fff9, 0 0 20px #00fff9, 0 0 30px #00fff9;
+    ;
     /* border-bottom: 4px solid rgb(100, 255, 218) */
     /* Hover effect with a transform */
 }
@@ -67,27 +77,28 @@ body {
     }
 }
 
-    .cKJzHK{
-        
-        
-        margin-left: 9px;
-        background-color: transparent;
-        color:  rgb(100, 255, 218);
-        /* border: none; */
-        border-radius: 5px;
-        padding: 8px 20px;
-        font-size: 16px;
-        font-weight: 500;
-        cursor: pointer;
-        border:1px solid rgb(100, 255, 218);
-        text-decoration: none;
+.cKJzHK {
+
+
+    margin-left: 112px;
+    background-color: transparent;
+    color: rgb(100, 255, 218);
+    /* border: none; */
+    border-radius: 5px;
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border: 1px solid rgb(100, 255, 218);
+    text-decoration: none;
     cursor: pointer;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
-    }
-    .cKJzHK:hover{
-        text-decoration: none;
-        background-color: transparent;
-        color:  rgb(100, 255, 218);
-        border:1px solid rgb(100, 255, 218);
-        box-shadow: 0 0 10px #00fff9, 0 0 20px #00fff9, 0 0 30px #00fff9;
-    }
+}
+
+.cKJzHK:hover {
+    text-decoration: none;
+    background-color: transparent;
+    color: rgb(100, 255, 218);
+    border: 1px solid rgb(100, 255, 218);
+    box-shadow: 0 0 10px #00fff9, 0 0 20px #00fff9, 0 0 30px #00fff9;
+}
