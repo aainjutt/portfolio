@@ -1,7 +1,7 @@
 import picone from "../assets/design.jpg"
 import pictwo from "../assets/design (1).jpg"
 import picthree from "../assets/design (2).jpg"
-import picfour from "../assets/design (3).jpg"
+import picfour from "../assets/design(3).png"
 import picfive from "../assets/design (4).jpg"
 import picsix from "../assets/design (5).jpg"
 
@@ -28,7 +28,8 @@ const data = [
   },
   {
     icon: picfour,
-    Text: " ReactJS, Bootstrap 4.x , Responsive , Web App , Node.js Rest API",
+    Project:'Budget App',
+    Text: " ReactJS, Bootstrap 4.x , Responsive , Web App ,  props",
   },
   {
     icon: picfive,
