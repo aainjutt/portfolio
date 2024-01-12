@@ -4,6 +4,7 @@ import picthree from "../assets/design (2).jpg"
 import picfour from "../assets/design(3).png"
 import picfive from "../assets/design (4).jpg"
 import picsix from "../assets/design (5).jpg"
+import picseven from '../assets/design(6).png'
 
 
 
@@ -32,8 +33,9 @@ const data = [
     Text: " ReactJS, Bootstrap 4.x , Responsive , Web App ,  props",
   },
   {
-    icon: picfive,
-    Text: " WordPress Personal Website",
+    icon: picseven,
+    Project:'Admin Pannel',
+    Text: " React.js,Html5,Css,Material Ui ,Javascript,React Hooks",
   },
   {
     icon: picsix,
