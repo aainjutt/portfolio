@@ -6,7 +6,7 @@ import picfive from "../assets/design (4).jpg"
 import picsix from "../assets/design (5).jpg"
 import picseven from '../assets/design(6).png'
 
-
+import piceight from '../assets/design(4).png'
 
 
 
@@ -38,7 +38,8 @@ const data = [
     Text: " React.js,Html5,Css,Material Ui ,Javascript,React Hooks",
   },
   {
-    icon: picsix,
+    icon: piceight,
+    Project:'Real-estate-agency',
     Text: " WordPress Personal Website",
   },
 ];
